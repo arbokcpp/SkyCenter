@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lexend', sans-serif;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    font-size: 1.2em;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a{
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+#navbar li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+#content h2 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+}
+
+#content {
+    text-align: center;
+    font-size: 1.5em;
+}
