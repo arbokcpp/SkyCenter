@@ -1,44 +1,93 @@
 body {
+    background-color: #efebda;
     font-family: 'Lexend', sans-serif;
 }
+
+#header {
+    /*background-color: #7de1ee;*/
+    background-color: #82a4b3;
+}
+
+#logo-container {
+    float: left;
+}
+
+#logo {
+    height: 4.1em; 
+    width: 9.4em;
+    padding: 0.2em 1em 0.2em 0.5em;
+}
+
+/*
+#logo-container {
+    border: solid 1px black;
+}
+
+
+#navbar {
+    border: solid 1px black;
+    height: 4.3em;
+}
+
+/*
+#breadcrumb {
+    border: solid 1px white;
+}
+*/
 
 #navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-    font-size: 1.2em;
 }
 
 #navbar li {
+    padding: 1.5em 0.7em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1em;
+    /*border: solid 1px black;*/
+}
+
+#navbar li .active {
+    color: white;
+}
+
+#navbar li a {
+    display: block;
+    text-align: center;
+    padding: 0 0.875em ;
+    /*border: solid 1px black;*/
+    text-decoration: none;
+    color: #151c36;
+}
+
+#navbar li a:hover {
+    color: white;   
+}
+
+#navigation li {
     float: left;
 }
 
-#navbar li a{
+#user li {
+    float: right;
+}
+
+#breadcrumb{
+    clear: both;
+    background-color: #efebda;
+    padding-top: 0.1em;
+}
+
+#breadcrumb p {
+    color: #151c36;
+}
+
+#img-banner {
     display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-#navbar li a:hover:not(.active) {
-    background-color: #ddd;
-}
-
-#navbar li a.active {
-    color: white;
-    background-color: #4CAF50;
-}
-
-#content h2 {
-    font-family: 'Lexend', sans-serif;
-    font-weight: 800;
-}
-
-#content {
-    text-align: center;
-    font-size: 1.5em;
+    width: 1400px;
+    height: 574px;
+    margin-left: auto;
+    margin-right: auto;
 }

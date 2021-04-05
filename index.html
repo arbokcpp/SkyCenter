@@ -3,63 +3,46 @@
     <head>
         <title>Home</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet"> 
     </head>
     <body>
-
         <div id="header">
-            <h1>SKI CENTER DOLOMITI</h1> <!-- senza h1, solo logo?-->
-            <!-- logo -->
-        </div>
-
-        <div id="navbar">
-            <ul>
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">Impianti e piste</a></li>
-                <li><a href="#">Skipass Shop</a></li>
-                <li><a href="#">Rifugi e servizi</a></li>
-                <li><a href="#">Info</a></li>
-            </ul>           
-        </div>
-
-        <div id="breadcrumb-container">
-            <ul class="breadcrumb">
-                <li><a href="#">Home</a></li>
-            </ul>
-        </div>
-
-        <div id="content">
-            <div id="image">
-                <img src="images/novita_sci-e-piste-ski-center-latemar-obereggen-1-e1562839810897.jpg">
+            <div id="logo-container">
+                <a href="#">
+                <img id="logo" src="images/logo.png" alt="logo">
+                </a>
             </div>
-            <div id="main-content">
-                <h2>BENVENUTI NELLO SKI CENTER DOLOMITI</h2>
-                <p>
-                Lo ski center Dolomiti è il comprensorio sciistico più vasto delle Dolomiti, una delle più belle località sciistiche del Trentino Alto Adige.<br> La mappa delle piste da sci dello Ski Center Dolomiti ha tre punti di accesso : Predazzo, Pampeago, Obereggen.
-                </p>
-                <p>
-                In pochi In pochi minuti gli impianti di risalita di Obereggen, Pampeago e Predazzo ti portano in quota: 49 km di tracciati innevati, piste da sci facili per i bambini, pendenze spettacolari per metterti alla prova e divertirti con gli amici in vacanza con gli sci sulla neve in Trentino Alto Adige.
-                </p>
-                <p>
-                Se stai pensando a una vacanza sulla neve in Trentino Alto Adige e cerchi un posto bello dove portare i bambini a sciare vieni sul Latemar nelle Dolomiti Patrimonio dell’Umanità: tra panorami mozzafiato che accarezzano i pendii delle montagne, spettacoli straordinari dall’alba al tramonto, piste innevate alla perfezione e per tutti i gusti, dai principianti agli sciatori più esperti.
-                </p>
-                <div>
-                    <h3>Eventi annuali</h3>
+
+            <div id="navbar">
+                <div id="navigation">
+                    <ul>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">Impianti e piste</a></li>
+                        <li><a href="#">Skipass Shop</a></li>
+                        <li><a href="#">Rifugi e servizi</a></li>
+                        <li><a href="#">Info</a></li>
+                    </ul>
                 </div>
-                <div id="newsletter">
-                    <h3>Iscriviti alla newsletter per rimanere aggiornato su news ed eventi</h3>
-                    <form>
-                        <label for="nome">Nome:</label><br>
-                        <input type="text" id="nome" name="nome"><br>
-                        <label for="cognome">Cognome:</label><br>
-                        <input type="text" id="cognome" name="cognome"></br>
-                        <label for="email">Email:</label></br>
-                        <input type="email" id="email" name="email">
-                    </form>
-                </div>
+                <div id="user">
+                    <ul>
+                        <li><a href="#">Accedi</a></li>
+                        <li><a href="#">Registrati</a></li>
+                    </ul>
+                </div>         
             </div>
+
+            <div id="breadcrumb">
+                <p>
+                    Ti trovi in: 
+                    <span xml:lang="en">Home</span>
+                </p>
+            </div>
+        </div>
+        <div id="banner">
+            <img id="img-banner" src="images/novita_sci-e-piste-ski-center-latemar-obereggen-1-e1562839810897.jpg">
         </div>
     </body>
 </html>
