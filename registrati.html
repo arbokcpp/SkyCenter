@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+</html lang="it">
+    <head>
+        <title>Registrati</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo-container">
+                <a href="#">
+                <img id="logo" src="images/logo.png" alt="logo">
+                </a>
+            </div>
+
+            <div id="navbar">
+                <div id="navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="piste.html">Piste</a></li>
+                        <li><a href=""></a>Rifugi e Servizi</li>
+                        <li><a href="#">Tariffe</a></li>
+                        <li><a href="#">Info</a></li>
+                    </ul>
+                </div>
+                <div id="user">
+                    <ul>
+                        <li><a href="#">Accedi</a></li>
+                        <li><a class="active" href="registrati.html">Registrati</a></li>
+                    </ul>
+                </div>         
+            </div>
+
+            <div id="breadcrumb">
+                <p>
+                    Ti trovi in: 
+                    <span xml:lang="en">Registrati</span>
+                </p>
+            </div>
+        </div>
+<form action="action_page.php">
+  <div class="container">
+    <h1>Registrati</h1>
+    <p>Compila questi campi per creare il tuo account</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Reinserisci Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+
+    <p>Creando un account accetti i nostri<a href="#">Termini e Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Registrati</button>
+  </div>
+
+  <div class="container signin">
+    <p>Già registrato? <a href="#">Accedi</a>.</p>
+  </div>
+</form>
