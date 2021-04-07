@@ -56,7 +56,8 @@ body {
 #navbar li a {
     display: block;
     text-align: center;
-    padding: 0 0.875em ;
+    /*padding: 0 0.875em ;*/
+    padding: 0 0.6em;
     /*border: solid 1px black;*/
     text-decoration: none;
     color: #151c36;
@@ -82,6 +83,7 @@ body {
 
 #breadcrumb p {
     color: #151c36;
+    font-weight: 500;
 }
 
 #img-banner {
