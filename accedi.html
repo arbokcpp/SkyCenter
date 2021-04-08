@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 </html lang="it">
     <head>
-        <title>Home</title>
+        <title>Accedi</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -19,18 +19,17 @@
             <div id="navbar">
                 <div id="navigation">
                     <ul>
-                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="piste.html">Piste</a></li>
                         <li><a href="tariffe_e_orari.html">Tariffe e orari</a></li>
                         <li><a href="rifugi e servizi.html">Rifugi e servizi</a></li>
                         <li><a href="recensioni.html">Recensioni</a></li>
                         <li><a href="info.html">Info</a></li>
-                        
                     </ul>
                 </div>
                 <div id="user">
                     <ul>
-                        <li><a href="accedi.html">Accedi</a></li>
+                        <li><a class="active" href="accedi.html">Accedi</a></li>
                         <li><a href="registrati.html">Registrati</a></li>
                     </ul>
                 </div>         
@@ -39,19 +38,25 @@
             <div id="breadcrumb">
                 <p>
                     Ti trovi in: 
-                    <span xml:lang="en">Home</span>
+                    <span xml:lang="en">Registrati</span>
                 </p>
             </div>
         </div>
-        <!--src="images/novita_sci-e-piste-ski-center-latemar-obereggen-1-e1562839810897.jpg" -->
-        <div id="banner">
-            <img id="img-banner" src="images/hero-crop.jpg">
-        </div>
-        <div id="content">
-            <div id="content-header">
-                <h2>Benvenuti nello Ski Center Dolomiti</h2>
-            </div>
-        </div>
-        </div>
-    </body>
-</html>
+<form action="action_page.php">
+  <div class="container">
+    <h1>Accedi</h1>
+    <p>Compila questi campi per creare il tuo account</p>
+    <hr>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    <hr>
+    <button type="submit" class="loginbtn">Accedi</button>
+  </div>
+
+  <div class="container signin">
+    <p>Non ancora registrato?<a href="registrati.html"></a>Registrati</p>
+  </div>
+</form>
