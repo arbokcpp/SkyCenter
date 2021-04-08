@@ -133,11 +133,9 @@ h2{
 
 * {box-sizing: border-box}
 
-
 .container {
   padding: 16px;
 }
-
 
 input[type=text], input[type=password] {
   width: 100%;
@@ -173,11 +171,9 @@ hr {
   opacity:1;
 }
 
-
 a {
   color: dodgerblue;
 }
-
 
 .signin {
   background-color: #FFFF;
