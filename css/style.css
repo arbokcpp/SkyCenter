@@ -105,13 +105,15 @@ h2{
 
 #content-header {
     text-align: center;
-    text-transform: uppercase;
     font-size: 1.5em;
     font-weight: 700;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-#content-header h2{
+#content-header h2, h3{
     color: #151c36;
+    text-transform: uppercase;
 }
 
 /************************************************************INFO.HTML STYLE************************************************************/
@@ -130,6 +132,8 @@ h2{
 }
 
 /*********************************************************FORM DI REGISTRAZIONE*********************************************************/
+
+* {box-sizing: border-box}
 
 .container {
   padding: 16px;
@@ -179,3 +183,4 @@ a {
 }
 
 /*****************************************************************PISTE*****************************************************************/
+
