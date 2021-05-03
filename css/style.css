@@ -8,10 +8,6 @@ h1{
     color: #151c36;
 }
 
-#active{
-  color: #0000;
-}
-
 #header {
     /*background-color: #7de1ee;*/
     background-color: #82a4b3;
@@ -114,7 +110,7 @@ h1{
     font-size: 1.8em;
 }
 
-#content-header h2, h3{
+#content-header h1, h2, h3{
     color: #151c36;
     text-transform: uppercase;
 }
