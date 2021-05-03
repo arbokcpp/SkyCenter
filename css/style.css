@@ -4,8 +4,12 @@ body {
     font-family: 'Lexend', sans-serif;
 }
 
-h2{
+h1{
     color: #151c36;
+}
+
+#active{
+  color: #0000;
 }
 
 #header {
