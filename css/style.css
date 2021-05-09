@@ -183,54 +183,55 @@ a {
 
 /*****************************************************************PISTE*****************************************************************/
 
-/****************************************************************PROVA******************************************************************/
+/****************************************************************HOME******************************************************************/
 
 .content-wrapper {
-    margin-top: 100px;
+    margin-top: 6.25em;
     overflow: hidden;
-    box-shadow: 0 -7px 10px #b0b0b0;
-    padding-top: 50px;
+    /*box-shadow: 0 0.4375em 0.625em #b0b0b0;*/
+    padding-top: 3.125em;
+    position: relative;
+    width: 1300px;
+    margin: auto;
 }
 
 .text-box {
     background-color: white;
     overflow: hidden;
-    width: 500px;
+    width: 31.25em;
     height: auto;
-    position: relative;
     font-size: 0.8em;
-    padding-left: 20px;
-    padding-right: 20px;
-    
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    position: absolute;
 }
 
-.text-box p {
+/* .text-box p {
     text-align: justify;
-}
+} */
 
 #text-box1 {
-    top: 147px;
-    left: -100px;
+    left: 700px;
+    top: 250px;
     box-shadow: -11px -11px 10px #b0b0b0;
 }
 
 #text-box2 {
-    margin-left: 150px;
-    top: -242px;
-    background-color: white;
+    right: 700px;
+    top: 360px;
     box-shadow: 11px -11px 10px #b0b0b0;
 }
 
-#image-wrapper1 {
-    float: left;
-    margin-left: 150px;
-}
-#image-wrapper2 {
-    float: right;
-    margin-right: 150px;
-}
 
 #image-wrapper2 img{
     width: 800px;
     height: 520px; 
+}
+
+.float-to-left {
+    float: left;
+}
+
+.float-to-right {
+    float: right;
 }
